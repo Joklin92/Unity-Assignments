@@ -1,0 +1,54 @@
+DONE:
+
+1.Make a tower defense game.
+
+2.The player must be able to place towers anywhere on the map, and enemies can walk anywhere on the map. 
+
+
+4.The player can make the enemies change direction by placing towers. 
+In that case, an enemy must find another way around the tower(s), meaning the enemies must have adaptive pathfinding 
+enabling them to recalculate the move path in runtime. 
+You can use Unity Navmesh system (easier) for this or make your own A* pathfinding (quite harder).
+If you make your own A* implementation, then you don’thave to make the recalculation feature.
+
+5.The towers must shoot at nearby enemies.
+
+6.Enemies startin one side of the map, and win if they can reach the opposite side of the map
+
+7.It must be possible to upgrade the towers, so they shoot faster, harder, slow the enemies, or whatever you feel like the upgrade should do.
+
+8.Players can sell or remove towers.
+
+9.Make some visual effects, remember juice it or loose it
+
+NOT DONE:
+
+3.If the player blocks all paths to the other side, enemies will just instantly destroy a tower so they can pass -or alternatively, 
+the player will be prevented from putting down the final tower that blocks the path.
+
+10.Now make a new game which must be an onlinemultiplayer game. I don't recommend turning your tower defense game into a multiplayer game, 
+just follow the standard Photon tutorial, or some other Photon tutorial.The tutorial you follow is up to you, 
+it can be a simple pong game, a 3rd person shooter or whatever you like, 
+just keep it simple. This is just to give you a chance to try to get some easy hands-on experience with multiplayer.
+
+11.For multiplayer, I recommend you use Photon framework. 
+You can also use Unity's own system called UNet, but it is being deprecated and replaced soon with a new system. 
+
+
+
+
+MAYBE:
+
+Make your own pathfinding  using A* or another algorithm, thus you don't use Unity's Navmesh system.
+
+YELLOW NOT DONE:
+
+Try and make both projectile towers and laser towers. For laser towers, you could use LineRenderer and Raycasting
+
+Go all in on the "juice" -make many tweens and cool animations, a beautiful UI with buttons, a main menu, a story/introduction, multiple waves of attackers, boss fights, etc. 
+
+
+
+
+
+

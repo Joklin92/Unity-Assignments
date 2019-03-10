@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/ScoreBoard.unity
+  isLoaded: 1
+  isActive: 1

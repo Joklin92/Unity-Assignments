@@ -1,0 +1,6 @@
+G cost = distance from starting node
+
+H cost = distance from end node
+
+F cost = G cost + H cost
+

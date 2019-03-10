@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ae24a84a2debb440853dd62682916db, type: 3}
+  m_Name: Medium
+  m_EditorClassIdentifier: 
+  name: Demonic Wizard
+  icon: {fileID: 21300000, guid: c82fc1a46e10eb7419c2ccefbbc04004, type: 3}
+  health: 7500
+  movementSpeed: 30
+  damage: 2000
+  atkRate: 40
+  scoreValue: 2500
+  currencyValue: 100

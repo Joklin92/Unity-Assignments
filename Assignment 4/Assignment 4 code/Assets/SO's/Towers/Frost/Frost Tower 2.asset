@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4b5bee9fe4d57d49a416c71ef8d0095, type: 3}
+  m_Name: Frost Tower 2
+  m_EditorClassIdentifier: 
+  name: Frost Tower 2
+  icon: {fileID: 21300000, guid: 68bacfceca162394c95d127f6749d3ae, type: 3}
+  health: 200000
+  damage: 3000
+  damageOverTime: 0
+  type: Frost
+  price: 325
+  sellValue: 150
+  fireRate: 3
+  range: 125
+  level: 2
+  projectile: {fileID: 11400000, guid: 5645fa7aa2cdbab42800a237192aaee7, type: 2}
